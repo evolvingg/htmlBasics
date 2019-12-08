@@ -58,7 +58,7 @@ a {
 }
 
 .head {
-    padding: 60px 0 40px;
+    padding: 40px 0;
     width: 100%;
     height: 30em;
     position: relative;
@@ -142,6 +142,17 @@ a {
 
 .breadcrumbs {
     margin-top: 26px;
+    position: relative;
+}
+
+.breadcrumbs .arrow {
+    background-color: #148bce;
+    width: 2.25em;
+    height: 1px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
 }
 
 .links ul, .breadcrumbs {
@@ -150,13 +161,23 @@ a {
 
 .links ul li ,.breadcrumbs li {
     display: inline-block;
+}
+
+.links ul li {
     padding: 0 20px;
 }
 
-.breadcrumbs li:not(:last-child):after {
-    content: '->';
-    padding-left: 40px;
-    color: #148bce;
+.breadcrumbs .arrow:after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    border: solid #148bce;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-left: 1.6em;
 }
 .contact-section {
     margin-top: 205px;
@@ -233,6 +254,7 @@ a {
     -webkit-appearance: none;
     font-size: 1.2em;
     border-radius: 6px;
+    border: none;
 }
 
 .summary {
@@ -282,11 +304,18 @@ a {
 .summary-listing li h5{
     color: #000000;
     margin-bottom: 20px;
+    display: inline-block;
 }
 
 .summary-listing li {
-    list-style-type: disc;
     margin-bottom: 50px;
+}
+
+.summary-listing li::before {
+  content: "•";
+  color: #148bce;
+  display: inline-block;
+  width: 0.5em;
 }
 
 .summary-listing li p {
@@ -321,7 +350,7 @@ a {
     width: 100%;
     margin-bottom: 20px;
     -webkit-appearance: none;
-    border-color: #333c45;
+    border: 1px solid #333c45;
     background-color: #212b35;
     font-size: 18px;
     padding: 4.5% 0% 4.5% 4.2%;
@@ -396,8 +425,13 @@ a {
     padding: 0 66px;
 }
 
-.footer-det .listitem h3 ,.footer-det .listitem ul li{
+.footer-det .listitem ul li{
     margin-bottom: 12px;
+    color: #d8e9f6;
+}
+
+.footer-det .listitem h3 {
+    margin-bottom: 25px;
 }
 
 .footer-det .listitem:first-of-type {
@@ -440,7 +474,8 @@ a {
 }
 
 .policies .policy-list .policy-item:after {
-    content: ' | ';
+    content: '|';
+    padding: 0 15px;
 }
 
 .policies .policy-list .policy-item:last-of-type:after {
@@ -448,21 +483,25 @@ a {
 }
 
 .footer-det .listitem h5 {
-    margin-bottom: 5px;
+    margin-bottom: 7px;
+    color: #d8e9f6;
 }
 
 .footer-det .separator {
-    margin: 36px auto 50px;
-    color: #cbe2f3;
+    margin: 34px auto 30px;
+    background-color: #41a0d7;
+    border: none;
+    height: 1px;
 }
 
 .footer-det .policies {
-    padding-bottom: 64px;
+    padding-bottom: 48px;
 }
 
 .footer-det .text-box {
     padding: 15px 0 15px 15px;
     border: none;
+    width: 260px;
 }
 
 
@@ -470,6 +509,7 @@ a {
     padding: 15px;
     background-color: #00000C;
     border: none;
+    margin-left: -3px;
 }
 
 .footer-det .social-media li {
@@ -480,3 +520,8 @@ a {
     width: 20px;
     height: 20px;
 }
+
+.footer-det .social-media {
+    margin-bottom: 24px;
+}
+
