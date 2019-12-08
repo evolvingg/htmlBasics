@@ -439,7 +439,7 @@ a {
 }
 
 .footer-det .listitem:last-of-type {
-    padding: 0 0 0 66px;
+    padding: 0;
 }
 
 .footer-det .policies .copyright {
@@ -514,6 +514,7 @@ a {
 
 .footer-det .social-media li {
     display: inline-block;
+    margin-right: 13px;
 }
 
 .footer-det .social-media img {
