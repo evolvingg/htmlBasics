@@ -426,7 +426,7 @@ a {
 }
 
 .footer-det .listitem ul li{
-    margin-bottom: 12px;
+    margin-bottom: 9px;
     color: #d8e9f6;
 }
 
@@ -510,11 +510,12 @@ a {
     background-color: #00000C;
     border: none;
     margin-left: -3px;
+    font-weight: bolder;
 }
 
-.footer-det .social-media li {
+.footer-det .listitem .social-media li {
     display: inline-block;
-    margin-right: 13px;
+    margin-right: 12px;
 }
 
 .footer-det .social-media img {
