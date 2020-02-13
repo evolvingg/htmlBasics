@@ -1,0 +1,44 @@
+
+
+.form {
+    &-background {
+        background-color: $form-background;
+    }
+    &-title , &-data {
+        margin: 0 auto;
+        width: 44%;
+    }
+    &-title {
+        font-size: 3em;
+        padding: 118px 0 90px;
+        text-align: center;
+    }
+    &-row {
+        font-size: 0;
+        .inp-fields {
+            width: 100%;
+            margin-bottom: 20px;
+            -webkit-appearance: none;
+            border: 1px solid $inp-border;
+            background-color: $inp-background;
+            font-size: 18px;
+            padding: 4.5% 0% 4.5% 4.2%;
+            &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: $inp-place;
+                opacity: 1; /* Firefox */
+            }
+        }
+        .fname ,.lname {
+            width: 47%;
+        }
+        .fname {
+            margin-right: 6%;
+        }
+        .submit-btn {
+            padding: 34px 0;
+            width: 100%;
+            margin: 5px 0 120px;
+            background-color: $light-blue-color;
+        }
+    }    
+}

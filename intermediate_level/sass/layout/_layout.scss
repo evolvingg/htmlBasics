@@ -1,0 +1,14 @@
+.head {
+    width: 100%;
+}
+
+.header-container {
+    max-width: 72%;
+    margin: 0 auto;
+    @extend %clearfixed;
+}
+
+.container {
+    margin: 0 auto;
+    width: 68%;
+}

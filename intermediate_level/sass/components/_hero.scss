@@ -1,0 +1,32 @@
+.hero {
+    &-container {
+        padding: 125px 0 190px;
+        margin: 0 auto;
+        width: 70%;
+        .hero-text {
+            float: left;
+            width: 54%;
+            h2 {
+                font-size: 3em;
+                color: $header-dark;
+                margin-bottom: 58px;
+            }
+        }
+    }
+    &-para {
+        margin-bottom: 84px;
+        color: $text-color;
+    }
+    &-holder {
+        width: 100%;
+        @extend %clearfixed;
+    }
+    &-image {
+        float: left;
+        width: 46%;
+        img {
+            width: 534px;
+            height: 460px;
+        }
+    }
+}

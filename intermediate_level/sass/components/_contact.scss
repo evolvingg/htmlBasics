@@ -1,0 +1,58 @@
+.contact {
+    &-heading {
+        text-align: center;
+        color: $black-color;
+        h2{
+            font-size: 3em;
+            letter-spacing: 3px;
+        }
+        p {
+            color: $base-color;
+            width: 50%;
+            margin: 18px auto 0;
+            line-height: 1.6;
+        }
+    }
+    &-section {
+        margin-top: 205px;
+        .listings {
+            list-style-type: none;
+            color: $base-color;
+            margin: 30px auto 110px;
+            width: 88%;
+            li {
+                width: 29%;
+                display: inline-block;
+                margin: 0 20px;
+                box-shadow: 0 2px 30px $base-color;
+                height: 430px;
+                border-radius: 6px;
+                vertical-align: top;
+            }
+            .title {
+                font-weight: normal;
+                font-size: 1.4em;
+                margin: 20px 30px 16px;
+            }
+            
+            .img-caption {
+                margin: 0 30px 20px;
+                p {
+                    margin-bottom: 27px;
+                    color: $img-color;
+                }
+            }
+            .img-container {
+                background-color: $base-color;
+                text-align: center;
+                background-image: linear-gradient(to right, $light-blue-color , $dark-blue-color);
+                border-radius: 6px 6px 0 0;
+                padding: 30px 0 20px;
+                img {
+                    width: 105px;
+                    height: 105px;
+                }
+            } 
+        }
+    }
+}

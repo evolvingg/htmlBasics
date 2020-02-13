@@ -1,0 +1,39 @@
+
+.head {
+    padding: 40px 0;
+    height: 30em;
+    position: relative;
+    .text-container {
+        font-size: 4em;
+        font-weight: unset;
+        letter-spacing: 0;
+        text-align: center;
+        margin: 205px 0 80px;
+        b {
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+    }
+    .header-container {
+        .links {
+            float: right;
+            padding: 25px 0 25px 40px;
+            font-weight: 700;
+            ul {
+                list-style-type: none;
+                li {
+                    display: inline-block;
+                    padding: 0 20px;
+                }
+            }
+        }
+        .logo-container {
+            float: left;
+            @extend %clearfixed;
+            img {
+                height: 68px;
+                width: 196px;
+            }
+        }
+    }
+}

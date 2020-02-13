@@ -1,0 +1,51 @@
+.white-color {
+    background-color: $white-color;
+}
+
+.light-color {
+    background-color: $light-color;
+}
+
+.black-color {
+    background-color: $black-color;
+}
+
+.blue-color {
+    background-color: $light-blue-color;
+}
+
+.text-blue {
+    color: $light-blue-color;
+}
+
+.text-white {
+    color: $white-color;
+}
+
+.text-black {
+    color: $black-color;
+}
+
+.cs {
+    cursor: pointer;
+}
+
+.active {
+    color: $light-blue-color;
+}
+
+.pdt92 {
+    padding-top: 92px;
+}
+
+.darker {
+    color: $darker-color;
+}
+
+.btn {
+    padding: 22px 36px;
+    -webkit-appearance: none;
+    font-size: 1.2em;
+    border-radius: 6px;
+    border: none;
+}

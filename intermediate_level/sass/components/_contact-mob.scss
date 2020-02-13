@@ -1,0 +1,29 @@
+.contact {
+    &-heading {
+        h2{
+            font-size: 2em;
+        }
+        p {
+            margin: 1em auto 0;
+            width: 100%;
+        }
+    }
+    &-section {
+        margin-top: 5em;
+        .listings {
+            margin: 2em auto;
+            width: 100%;
+            li {
+                width: 100%;
+                display: block;
+                margin: 1.5em 0;
+                height: auto;
+                padding-bottom: 1em;
+                .btn {
+                    font-size: 1em;
+                    padding: 1.5em;
+                }
+            }
+        }
+    }
+}
