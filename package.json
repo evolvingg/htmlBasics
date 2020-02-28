@@ -1,0 +1,20 @@
+{
+  "name": "htmlcourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch intermediate_level/sass/main.scss:intermediate_level/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evolvingg/htmlBasics.git"
+  },
+  "author": "tanvi singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evolvingg/htmlBasics/issues"
+  },
+  "homepage": "https://github.com/evolvingg/htmlBasics#readme"
+}
