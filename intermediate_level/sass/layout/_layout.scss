@@ -1,14 +1,21 @@
-.head {
-    width: 100%;
-}
+ @media screen and (min-width: 769px) {
+    .header-container {
+        max-width: 72%;
+        margin: 0 auto;
 
-.header-container {
-    max-width: 72%;
-    margin: 0 auto;
+    }
+    .container {
+        margin: 0 auto;
+        width: 68%;
+    }
+ }
+
+ .header-container {
     @extend %clearfixed;
 }
 
-.container {
-    margin: 0 auto;
-    width: 68%;
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0 2em;
+    }
 }

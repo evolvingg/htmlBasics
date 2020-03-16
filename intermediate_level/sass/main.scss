@@ -10,12 +10,3 @@
 @import './components/form';
 @import './components/hero';
 @import './layout/layout';
-
-@media screen and (max-width: 768px) {
-    @import './components/header-mob';
-    @import './components/contact-mob';
-    @import './components/summary-mob';
-    @import './components/form-mob';
-    @import './components/hero-mob';
-    @import './components/footer-mob';
-}

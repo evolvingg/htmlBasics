@@ -1,2 +1,4 @@
 intermediate_level/.sass-cache
 intermediate_level/css
+node_modules
+/.sass-cache

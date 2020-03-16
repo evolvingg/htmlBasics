@@ -31,9 +31,47 @@
             float: left;
             @extend %clearfixed;
             img {
-                height: 68px;
                 width: 196px;
             }
         }
     }
+    .nav-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+.head {
+    height: auto;
+    .text-container {
+        font-size: 2em;
+        margin: 1em 0 0;
+    }
+    .header-container {
+        .links {
+            padding: 0;
+            ul {
+                li {
+                    display: block;
+                    padding: 1em;
+                }
+            }
+        }
+        .links ,  .logo-container {
+            float: none;
+            text-align: center;
+        }
+    }
+    .nav-menu {
+        display: block;
+        hr {
+            width: 15%;
+            margin: 5px auto;
+        }
+    }
+    .hidden {
+        display: none;
+    }
+}
 }

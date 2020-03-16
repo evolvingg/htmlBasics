@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/evolvingg/htmlBasics/issues"
   },
-  "homepage": "https://github.com/evolvingg/htmlBasics#readme"
+  "homepage": "https://github.com/evolvingg/htmlBasics#readme",
+  "dependencies": {
+    "sass": "^1.26.2"
+  }
 }

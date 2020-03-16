@@ -6,7 +6,7 @@
     }
     &-item {
         color: $base-color;
-        padding: 105px 0 30px;
+        padding: 6.5em 0 2em;
         @extend %clearfixed;
         h4 {
             margin-bottom: 30px;
@@ -30,14 +30,16 @@
                 width: 53%;
                 float: left;
             }
+            img {
+                margin-left: 10%;
+            }    
         }
     img {
-        margin-top: 68px;
-        width: 435px;
-        height: 238px;
+        width: 37%;
+        margin-top: 2em;
     }
     .start-image {
-        margin-top: 246px;
+        margin-top: 10em;
         }
     }
     &-listing {
@@ -56,6 +58,48 @@
                 color: $light-blue-color;
                 display: inline-block;
                 width: 0.5em;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .summary {
+        width: 80%;
+        &-item {
+            padding: 2em 0;
+            h4 {
+                margin-bottom: 1.2em;
+                font-size: 1em;
+            }
+            h2 {
+                font-size: 2.5em;
+                margin-bottom: 1em;
+            }
+            img {
+                margin: 0;
+                width: 100%;
+            }
+            .start-image {
+                margin-top: 0;
+            }
+        }
+        & &-item &-item-container {
+            width: 100%;
+            float: none;
+        }
+        & &-item img {
+            margin: 0;
+        }
+    
+        &-listing {
+            li {
+                margin-bottom: 2em;
+                h5{
+                    margin-bottom: 1em;
+                }
             }
         }
     }
