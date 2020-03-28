@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch intermediate_level/sass/main.scss:intermediate_level/css/main.css"
+    "start": "sass --watch intermediate_level/sass/main.scss:intermediate_level/css/main.css"
   },
   "repository": {
     "type": "git",

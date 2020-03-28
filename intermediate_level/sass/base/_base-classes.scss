@@ -1,29 +1,18 @@
-.white-color {
-    background-color: $white-color;
-}
 
 .light-color {
-    background-color: darken($white-color, 3%);
+    background-color: darken($secondary-color, 3%);
 }
 
-.black-color {
-    background-color: $black-color;
-}
-
-.blue-color {
+.tertiary-color {
     background-color: $light-blue-color;
 }
 
-.text-blue, .active {
+.text-tertiary, .active {
     color: $light-blue-color;
 }
 
-.text-white {
-    color: $white-color;
-}
-
-.text-black {
-    color: $black-color;
+.secondary-text {
+    color: $secondary-color;
 }
 
 .cs {

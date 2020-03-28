@@ -2,7 +2,7 @@
     .listitem {
         display: inline-block;
         vertical-align: text-top;
-        padding: 0 66px;
+        padding: 0 5%;
         ul {
             li{
                 margin-bottom: 9px;
@@ -13,7 +13,7 @@
             margin-bottom: 25px;
         }
         &:first-of-type {
-            padding: 0 66px 0 0;
+            padding: 0 5% 0 0;
         }
         &:last-of-type {
             padding: 0;
@@ -24,9 +24,12 @@
         }
         .social-media {
             li {
-            display: inline-block;
-            margin-right: 12px;
+                display: inline-block;
+                margin-right: 3.5%;
+            }
         }
+        label {
+            display: block;
         }
     }
     .copyright {
@@ -34,10 +37,15 @@
         color: $copyright;
         @extend %clearfixed;
     }
+    ul.summary {
+        margin-bottom: 34px;
+    }
     
     .policies {
         color: $copyright;
         padding-bottom: 48px;
+        border-top: 1px solid $separator;
+        padding-top: 30px;
         @extend %clearfixed;
         .copyright {
             img {
@@ -72,18 +80,13 @@
             @extend %clearfixed;  
         }
     }
-    .separator {
-        margin: 34px auto 30px;
-        background-color: $separator;
-        border: none;
-        height: 1px;
-    }
 
     
     .text-box {
         padding: 15px 0 15px 15px;
         border: none;
         width: 260px;
+        float: left;
     }
     
     
@@ -91,15 +94,13 @@
         padding: 15px;
         background-color: $btn-subs;
         border: none;
-        margin-left: -3px;
         font-weight: bolder;
     }
     
     .social-media {
         margin-bottom: 24px;
         img {
-            width: 20px;
-            height: 20px;
+            width: 1.4em;
         }
     }
 }
@@ -168,11 +169,14 @@
             margin: 1em auto 1em;
         }
     
-        
-        .text-box {
-            padding: 1em 0 1em 1em;
-            width: 80%;
-            margin-bottom: 1em;
+        label {
+            display: block;
+            .text-box {
+                padding: 1em 0 1em 1em;
+                width: 80%;
+                margin-bottom: 1em;
+                float: none;
+            }
         }
         
         

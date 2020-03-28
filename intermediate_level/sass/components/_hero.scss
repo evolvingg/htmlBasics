@@ -25,8 +25,8 @@
         float: left;
         width: 46%;
         img {
-            width: 534px;
-            height: 460px;
+            width: 100%;
+            height: auto;
         }
     }
 }
@@ -54,10 +54,6 @@
         &-image {
             float: none;
             width: 100%;
-            img {
-                width: 100%;
-                height: auto;
-            }
         }
     }
 }

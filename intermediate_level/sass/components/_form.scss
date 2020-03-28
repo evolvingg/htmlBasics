@@ -23,9 +23,9 @@
             background-color: $inp-background;
             font-size: 18px;
             padding: 4.5% 0% 4.5% 4.2%;
-            color: $white-color;
+            color: $secondary-color;
             &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-                color: darken( $white-color, 40% );
+                color: darken( $secondary-color, 40% );
                 opacity: 1; /* Firefox */
             }
         }
